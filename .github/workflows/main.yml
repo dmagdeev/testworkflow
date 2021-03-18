@@ -31,4 +31,5 @@ jobs:
       - name: Run a multi-line script
         uses: dmagdeev/testaction@v1
         with:
+          myToken: ${{ secrets.GITHUB_TOKEN }}
           milliseconds: 1000
